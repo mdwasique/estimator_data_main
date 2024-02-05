@@ -1,13 +1,16 @@
+$primary-color: #00bdd6;
+$input-bg: #f3f4f6;
 .navbar {
   height: 50px;
   border-bottom: 0.5px solid rgb(231, 228, 228);
   display: flex;
   font-size: 14px;
   color: #555;
+  // --mdb-navbar-padding-y: 0rem !important;
+  height: fit-content;
 
   .wrapper {
     width: 100%;
-    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,6 +59,7 @@
         border: 0.2px solid lightgray;
         padding: 3px;
         border-radius: 5px;
+        background-color: $input-bg;
 
         input {
           border: none;
@@ -68,5 +72,22 @@
         }
       }
     }
+  }
+}
+
+.active {
+  color: $primary-color;
+  font-weight: bold;
+}
+.logo {
+  margin-left: 10px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  img {
+    width: 120px;
+    margin: auto;
   }
 }

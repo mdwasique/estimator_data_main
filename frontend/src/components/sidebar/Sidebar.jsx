@@ -2,23 +2,20 @@ import "./sidebar.scss";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import HomeIcon from "@mui/icons-material/Home";
 import DomainVerificationIcon from "@mui/icons-material/DomainVerification";
-import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
+// import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import DatasetIcon from "@mui/icons-material/Dataset";
 import SettingsIcon from "@mui/icons-material/Settings";
 import DashboardCustomizeIcon from "@mui/icons-material/DashboardCustomize";
+// import NttLogo from "/ntt_register_image.png";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="top">
-        <span className="logo">Ntt data</span>
-      </div>
-      <hr />
       <div className="center">
         <ul>
-          <p className="title">MAIN</p>
-          <li>
-            <DashboardIcon className="icon" />
-            <span>DashBoard</span>
+          {/* <p className="title">MAIN</p> */}
+          <li className="active-side-menu">
+            <DashboardIcon className="icon active-icon" />
+            <span className="active-side-text">DashBoard</span>
           </li>
           <li>
             <HomeIcon className="icon" />

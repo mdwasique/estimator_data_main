@@ -1,7 +1,7 @@
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+// import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "./navbar.scss";
 
@@ -11,15 +11,18 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="oppp">
           <div className="items">
-            <div className="item">
-              <span>Opportunties Dashboard</span>
+            <div className="logo">
+              <img src="/ntt_register_image.png" alt="NTT" />
             </div>
             <div className="item">
-              <span>files</span>
+              <span className="active">Opportunties Dashboard</span>
+            </div>
+            <div className="item">
+              <span>Files</span>
               <KeyboardArrowDownIcon className="icon" />
             </div>
             <div className="item">
-              <span>calender</span>
+              <span>Calender</span>
             </div>
           </div>
         </div>

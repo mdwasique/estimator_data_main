@@ -1,0 +1,59 @@
+$color_1: #171a1fff;
+$color_2: #d93025;
+$background-color_1: #f8f8ff;
+$background-color_2: #00bdd6ff;
+$background-color_3: #fff;
+
+/* form {
+  width: 50% !important;
+} */
+.signup-page {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.form-section {
+  width: 100vw;
+  height: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background-color: $background-color_1;
+  border: 0.2px solid lightgray;
+}
+.form-container {
+  width: 53%;
+}
+.form-img-container {
+  width: 40%;
+  background-color: $background-color_2;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.form-header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: $color_1;
+  margin-bottom: 32px;
+}
+.NTT-image {
+  width: 400px;
+  height: 150px;
+  background-color: $background-color_3;
+  border-radius: 10px;
+  padding: 20px;
+}
+.error-msg {
+  font-size: 12px;
+  color: $color_2;
+}

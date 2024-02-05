@@ -1,11 +1,13 @@
+$primary-bg: #ebfdff;
+$primary-color: #00bdd6;
 .sidebar {
-  flex: 1;
+  flex: 1.1;
   border-right: 0.5px solid lightgray;
   min-height: 100vh;
   background-color: white;
 
   .top {
-    height: 50px;
+    height: 43px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +24,7 @@
   }
   .center {
     padding-left: 10px;
+    padding-right: 10px;
 
     ul {
       list-style: none;
@@ -80,5 +83,23 @@
         background-color: #333;
       }
     }
+  }
+}
+
+.active-side-menu {
+  background-color: $primary-bg;
+}
+.active-side-text {
+  color: $primary-color !important;
+  font-weight: bold !important;
+}
+.active-icon {
+  color: $primary-color !important;
+}
+.logo {
+  img {
+    width: 120px;
+    height: 40px;
+    margin-top: 14px;
   }
 }

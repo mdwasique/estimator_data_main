@@ -1,6 +1,24 @@
 .home {
   display: flex;
+  max-width: 1280px;
+  height: 100vh;
+  margin-bottom: 10px;
+  margin: auto;
+  margin-top: 10px;
   .homeContainer {
     flex: 6;
   }
+}
+
+.home_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.home-page {
+  max-width: 1280px;
+  margin: auto;
+  border: 1px solid lightgray;
 }
