@@ -1,0 +1,127 @@
+.cards-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .primary-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .primary-text {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #171a1f;
+    margin-top: 6px;
+  }
+  .primary-btn {
+    background-color: #00bdd6;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 12px;
+  }
+}
+.cards-container {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  .icon-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .icon-wrapper1 {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #379ae6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-wrapper2 {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #efb034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-wrapper3 {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #1dd75b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-wrapper4 {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #8353e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .icon {
+    color: #fff;
+  }
+  .numbers-text-wrapper {
+    padding: 0px 10px 10px 10px;
+  }
+  .number1 {
+    color: #379ae6 !important;
+    font-weight: bold;
+  }
+  .number2 {
+    color: #f2c263 !important;
+    font-weight: bold;
+  }
+  .number3 {
+    color: #4ce77f !important;
+    font-weight: bold;
+  }
+  .number4 {
+    color: #8353e2 !important;
+    font-weight: bold;
+  }
+  .card {
+    height: 156px;
+    width: 24%;
+    border-radius: 12px;
+  }
+  .card1 {
+    background-color: #f1f8fd;
+    border: 1px solid #66b2e3;
+  }
+  .card2 {
+    background-color: #f1f8fd;
+    border: 1px solid #f2c263;
+  }
+  .card3 {
+    background-color: #eefdf3;
+    border: 1px solid #1dd75e;
+  }
+  .card4 {
+    background-color: #f5f2fd;
+    border: 1px solid #8353e2;
+  }
+}
+// .cards-container > div {
+//   height: 156px;
+//   width: 266px;
+//   border-radius: 12px;
+//   background-color: #f1f8fd;
+//   border: 1px solid #66b2e3;
+// }
+.card2 {
+  background-color: #fef9ee !important;
+}

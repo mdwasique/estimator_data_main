@@ -1,3 +1,15 @@
+.home-page {
+  max-width: 1280px;
+  margin: auto;
+  border: 1px solid lightgray;
+  margin-top: 10px !important;
+}
+.home-page {
+  max-width: 1280px;
+  margin: auto;
+  border: 1px solid lightgray;
+}
+
 .home {
   display: flex;
   max-width: 1280px;
@@ -9,16 +21,7 @@
     flex: 6;
   }
 }
-
-.home_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-}
-
-.home-page {
-  max-width: 1280px;
-  margin: auto;
-  border: 1px solid lightgray;
+.slider-container {
+  width: 100%;
+  padding: 0px 10px;
 }
