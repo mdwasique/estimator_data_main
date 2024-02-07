@@ -1,0 +1,16 @@
+.projectStatus {
+  display: flex;
+  justify-content: space-between;
+
+  .projectLeft {
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .projectRight {
+    justify-content: space-evenly;
+    flex: 2;
+    display: flex;
+    gap: 20px;
+  }
+}

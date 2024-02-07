@@ -5,6 +5,7 @@ import List from "./pages/list/List";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
 import Register from "./pages/register/Register";
+import ProjectDetails from "./pages/projectDetails/ProjectDetails";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="login" element={<Login />} />
             <Route path="register" element={<Register />} />
+            <Route path="project-details" element={<ProjectDetails />} />
             <Route path="users">
               <Route index element={<List />} />
               <Route path=":userId" element={<Single />} />
