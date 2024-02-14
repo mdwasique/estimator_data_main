@@ -1,4 +1,4 @@
-import "./login.scss";
+import "./login.module.scss";
 import { MDBCheckbox } from "mdb-react-ui-kit";
 
 function Login() {
